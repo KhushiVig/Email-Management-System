@@ -8,6 +8,9 @@
 # Compiled bytecode
 *.class
 
+# Practice / local folders
+Basics/
+
 # Log files
 *.log
 
