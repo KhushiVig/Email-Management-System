@@ -1,0 +1,234 @@
+# =================================================
+# Email Management System - .gitignore
+# =================================================
+
+# -------------------------------------------------
+# Java Compiled Files
+# -------------------------------------------------
+# Compiled bytecode
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# JVM crash reports
+hs_err_pid*
+replay_pid*
+
+# -------------------------------------------------
+# Java Archives (build outputs)
+# -------------------------------------------------
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# -------------------------------------------------
+# Build Directories
+# -------------------------------------------------
+bin/
+build/
+target/
+out/
+dist/
+
+# -------------------------------------------------
+# IDE - Visual Studio Code
+# -------------------------------------------------
+.vscode/
+.history/
+*.code-workspace
+*.vsix
+
+# Allow shared VS Code configs (optional)
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# -------------------------------------------------
+# IDE - IntelliJ IDEA
+# -------------------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+*.swp
+
+# -------------------------------------------------
+# IDE - Eclipse
+# -------------------------------------------------
+.project
+.classpath
+.settings/
+.metadata
+tmp/
+*.tmp
+*.launch
+.factorypath
+.buildpath
+.target
+.loadpath
+.recommenders
+.externalToolBuilders/
+.apt_generated/
+.apt_generated_test/
+local.properties
+
+# -------------------------------------------------
+# IDE - NetBeans
+# -------------------------------------------------
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# -------------------------------------------------
+# Maven
+# -------------------------------------------------
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# -------------------------------------------------
+# Gradle
+# -------------------------------------------------
+.gradle/
+**/build/
+gradle-app.setting
+.gradletasknamecache
+
+# Keep Gradle wrapper
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# -------------------------------------------------
+# Operating System Files
+# -------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+.fuse_hidden*
+
+# -------------------------------------------------
+# Environment & Sensitive Files
+# -------------------------------------------------
+.env
+.env.local
+.env.*.local
+config.properties
+application-local.properties
+secrets.properties
+credentials.json
+secrets.yml
+
+# -------------------------------------------------
+# Database Files
+# -------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------------------------------------
+# Test Coverage
+# -------------------------------------------------
+*.cover
+*.coverage
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+
+# -------------------------------------------------
+# Documentation & Reports
+# -------------------------------------------------
+javadoc/
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# -------------------------------------------------
+# Temporary & Backup Files
+# -------------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*~
+temp/
+tmp/
+
+# Auto-save files
+\#*\#
+.\#*
+
+# -------------------------------------------------
+# Security Files
+# -------------------------------------------------
+*.pem
+*.key
+*.crt
+*.cer
+
+# -------------------------------------------------
+# Version Control Artifacts
+# -------------------------------------------------
+*.orig
+.svn/
+
+# =================================================
+# End of .gitignore
+# =================================================
